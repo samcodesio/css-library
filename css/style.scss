@@ -1,0 +1,38 @@
+//Variables
+//Nesting
+//&
+//@import
+//@include
+//@extend
+//@mixin
+//adds individual css browser prefixes
+
+@import "./variables.scss";
+@import "./header.scss";
+
+header{
+    width: 100%;
+    background-color: yellow;
+    
+}
+.wrapper{
+    width: 30%;
+    //float: left;
+    h1{
+        color: $headingText;
+        &:hover{
+            color:blue;
+            background-position: top left;
+        }
+        
+    }
+
+}
+
+header::after{
+    content: "";
+    display: block;
+    clear: both;
+    
+    
+}

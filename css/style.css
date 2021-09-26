@@ -1,0 +1,28 @@
+header {
+  background-color: yellow;
+}
+
+header {
+  width: 100%;
+  background-color: yellow;
+}
+
+.wrapper {
+  width: 30%;
+  float: left;
+}
+
+.wrapper h1 {
+  color: green;
+}
+
+.wrapper h1:hover {
+  color: blue;
+}
+
+.wrapper::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */
